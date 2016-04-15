@@ -1530,10 +1530,10 @@ local function run(msg, matches)
       end
     end
     if matches[1] == 'tele' and  matches[2] == 'manager' then
-    	        return "Fire Bot \n\n\n based on telemeram-cli\n\n\nby parsa alemi)"
+    	        return "TeleManagerPlus V3\n Advanced Bot Base On TeleSeed\nchannel id : @telemanager_ch \n#Open_Source\n\n[@telemanagerplus](Https://github.com/telemanagerplus)"
             end
     if matches[1] == 'telemanager' then
-    	return "Fire Bot \n\n\n based on telemeram-cli\n\n\nby parsa alemi)"
+    	return "TeleManagerPlus V3\n Advanced Bot Base On TeleSeed\nchannel id : @telemanager_ch \n#Open_Source\n\n[@telemanagerplus](Https://github.com/telemanagerplus)"
     end
     if matches[1] == 'owner' then
       local group_owner = data[tostring(msg.to.id)]['set_owner']
