@@ -195,7 +195,7 @@ local function show_group_settingsmod(msg, data, target)
                 NUM_MSG_MAX = 0
         end
     end
-    local tmp = '\ngithub.com/telemanagerplus\n\nchannel :@telemanager_ch'
+    local tmp = '\nFire Bot\n\nparsa alemi'
     local bots_protection = "Yes"
     if data[tostring(msg.to.id)]['settings']['lock_bots'] then
         bots_protection = data[tostring(msg.to.id)]['settings']['lock_bots']
