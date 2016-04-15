@@ -9,7 +9,7 @@ local function create_group(msg)
                 create_group_chat (group_creator, group_name, ok_cb, false)
                 return 'Group [ '..string.gsub(group_name, '_', ' ')..' ] has been created!\nCheck Pm!'
         elseif not is_sudo(msg) then
-            return 'For Creating Group,Send Pm To @ali_ghoghnoos!\n\nIf you are Reported,Send msg To @ali_ghoghnoos_bot!\n\nOur Channel : @telemanager_ch\n\nGithub:\nGithub.com/telemanagerplus'
+            return 'For Creating Group,Send Pm To @parsaalemi!\n\nIf you are Reported,Send msg To @nort_talk_bot!'
         end
 end
 
