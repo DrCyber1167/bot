@@ -263,9 +263,10 @@ function create_config( )
     "welcome",
     "set_type",
     "server",
-    "voice"
+    "voice",
+    "antiflood"
     },
-    sudo_users = {100577715},--Sudo users
+    sudo_users = {105831687},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     text1 = [[
