@@ -174,7 +174,7 @@ return {
     "^[!/]([Ss]tats)$",
     "^[!/]([Ss]tats) (chat) (%d+)",
     "^[!/]([Ss]tats) (bot)",
-    "^[!/]([Ss]tats) (telemanager)"
+    "^[!/]([Ss]tats) (firebot)"
     }, 
   run = run,
   pre_process = pre_process
