@@ -263,7 +263,11 @@ function create_config( )
     "welcome",
     "set_type",
     "server",
-    "voice"
+    "voice",
+    "weather",
+    "kickme",
+    "kick",
+    "anti_porn"
     },
     sudo_users = {100577715},--Sudo users
     disabled_channels = {},
